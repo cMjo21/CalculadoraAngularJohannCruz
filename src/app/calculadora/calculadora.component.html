@@ -1,0 +1,12 @@
+<div class="grid-container">
+    <input type="number" name="numero1" class="input" placeholder="Ingrese el número 1" [(ngModel)]="numero1">
+    <input type="number" name="numero2" class="input" placeholder="Ingrese el número 2" [(ngModel)]="numero2">
+    <output class="output">{{ this.resultado }}</output>
+
+    <button (click)="suma()" class="button">+</button>
+    <button (click)="resta()" class="button">-</button>
+    <button  (click)="division()"class="button">/</button>
+    <button  (click)="multiplicacion()"class="button">*</button>
+    <button  (click)="potencia()"class="button">^</button>
+    <button (click)="borrar()"class="button">Borrar</button>
+  </div>
